@@ -1,0 +1,18 @@
+MAESTROPRO - ASISTENTE DIGITAL DOCENTE
+
+INICIO RAPIDO
+1. Extrae la carpeta MaestroPro-Nuevo.
+2. Abre la carpeta en Visual Studio Code.
+3. Abre index.html con Live Server (o abre index.html directamente en un navegador).
+4. La aplicación funciona sin servidor ni instalación de dependencias.
+
+ARCHIVOS
+- index.html: estructura y menú.
+- css/styles.css: diseño adaptable.
+- js/app.js: módulos, interacciones y almacenamiento local.
+
+IMPORTANTE
+Esta es una versión de demostración para proyecto escolar. Los datos se guardan en el almacenamiento local del navegador de ese equipo. No tiene autenticación real, servidor, cifrado ni controles institucionales de privacidad. Utiliza únicamente datos ficticios. No registres datos personales, información de contacto, calificaciones reales ni información privada de estudiantes.
+
+RESPALDOS
+En el módulo Respaldos puedes descargar y restaurar la información de demostración en formato JSON.

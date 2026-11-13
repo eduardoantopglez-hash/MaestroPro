@@ -1,0 +1,45 @@
+MAESTROPRO - ASISTENTE DIGITAL DOCENTE
+VERSION CONSOLIDADA PARA DEMOSTRACION ESCOLAR
+
+INICIO RAPIDO
+1. Extrae MaestroPro-Nuevo-FINAL.zip en una carpeta nueva.
+2. Abre la carpeta MaestroPro-Nuevo desde Visual Studio Code.
+3. Abre index.html con Live Server.
+4. La aplicacion funciona sin instalar dependencias y no necesita conexion a internet.
+
+ESTRUCTURA DEL PROYECTO
+- index.html: estructura principal, encabezado y menu de navegacion.
+- css/styles.css: diseño adaptable, temas, tablas, formularios e impresion.
+- js/app.js: modulos, validaciones, acciones, calendario y almacenamiento local.
+- GUIA-DE-PRESENTACION.md: explicacion del proyecto y guion para exponerlo.
+
+MODULOS INCLUIDOS (18)
+1. Inicio: panel principal, indicadores, accesos rapidos, tareas y eventos proximos.
+2. Alumnos: registro, busqueda, filtro por grupo, edicion y eliminacion.
+3. Grupos y materias: registro, consulta, edicion y control de relaciones.
+4. Asistencia: lista por grupo y fecha, presentes, faltas, retardos e historial.
+5. Calificaciones: captura, edicion, filtro, promedio y exportacion CSV.
+6. Tareas: fechas de entrega, estados, filtros y edicion.
+7. Planeaciones: tema, proposito, actividades, materiales y grupo.
+8. Examenes: fecha, materia, grupo, indicaciones y valor.
+9. Calendario: vista mensual, seleccion de dia, colores, busqueda, filtros y edicion de eventos.
+10. Biblioteca: recursos, enlaces, busqueda, filtros y estadisticas por tipo.
+11. Rubricas: creacion y administracion de criterios de evaluacion.
+12. Evaluaciones: valoracion por criterio y calculo automatico del resultado global.
+13. Historial: consulta de evaluaciones y detalle por criterio.
+14. Reportes: indicadores, avance de tareas, asistencia, impresion y CSV de calificaciones.
+15. Usuarios: perfiles demostrativos.
+16. Asistente docente: registro y organizacion de solicitudes.
+17. Respaldos: descarga y restauracion de archivo JSON; admite el formato actual y respaldos anteriores con claves mp_*.
+18. Configuracion: nombre del centro y tema claro/oscuro.
+
+DATOS Y PRIVACIDAD
+Esta es una aplicacion local de demostracion. La informacion se guarda en el almacenamiento local del navegador de ese equipo. No tiene servidor, autenticacion real, cifrado ni controles institucionales de privacidad. Los perfiles del modulo Usuarios son demostrativos y no crean cuentas ni permisos reales. El Asistente Docente organiza solicitudes y no utiliza inteligencia artificial.
+
+Utiliza solamente datos ficticios. No registres datos personales, informacion de contacto, calificaciones reales ni informacion privada de estudiantes. Los datos locales no se sincronizan automaticamente entre equipos ni navegadores.
+
+RESPALDOS
+En el modulo Respaldos puedes descargar una copia JSON y restaurarla posteriormente. La restauracion reemplaza los datos actuales; crea primero una copia de seguridad. La aplicacion tambien reconoce respaldos anteriores que utilicen claves mp_* cuando contengan colecciones de MaestroPro.
+
+RECOMENDACION PARA LA DEMOSTRACION
+Antes de presentar, abre cada modulo al menos una vez y realiza pruebas con registros ficticios. Conserva una copia del ZIP y una copia JSON de respaldo. Ejecuta el proyecto con Live Server para permitir que el navegador use el almacenamiento local.

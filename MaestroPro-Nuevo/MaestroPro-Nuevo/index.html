@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1d4ed8">
+  <meta name="description" content="MaestroPro: asistente digital para organizar actividades docentes.">
+  <title>MaestroPro | Asistente Digital Docente</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">MP</div>
+        <div><strong>MaestroPro</strong><small>Asistente Digital Docente</small></div>
+      </div>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <p class="nav-caption">GENERAL</p>
+        <button class="nav-link active" data-page="inicio"><span>⌂</span> Inicio</button>
+        <p class="nav-caption">GESTIÓN ACADÉMICA</p>
+        <button class="nav-link" data-page="alumnos"><span>♙</span> Alumnos</button>
+        <button class="nav-link" data-page="grupos"><span>▦</span> Grupos y materias</button>
+        <button class="nav-link" data-page="asistencia"><span>✓</span> Asistencia</button>
+        <button class="nav-link" data-page="calificaciones"><span>▤</span> Calificaciones</button>
+        <button class="nav-link" data-page="tareas"><span>✎</span> Tareas</button>
+        <button class="nav-link" data-page="planeaciones"><span>▧</span> Planeaciones</button>
+        <button class="nav-link" data-page="examenes"><span>▣</span> Exámenes</button>
+        <button class="nav-link" data-page="calendario"><span>▦</span> Calendario escolar</button>
+        <p class="nav-caption">RECURSOS Y SEGUIMIENTO</p>
+        <button class="nav-link" data-page="biblioteca"><span>▤</span> Biblioteca</button>
+        <button class="nav-link" data-page="rubricas"><span>☆</span> Rúbricas</button>
+        <button class="nav-link" data-page="evaluaciones"><span>◎</span> Evaluaciones</button>
+        <button class="nav-link" data-page="historial"><span>◷</span> Historial</button>
+        <button class="nav-link" data-page="reportes"><span>▥</span> Reportes</button>
+        <p class="nav-caption">HERRAMIENTAS</p>
+        <button class="nav-link" data-page="usuarios"><span>♧</span> Usuarios</button>
+        <button class="nav-link" data-page="asistente"><span>✧</span> Asistente docente</button>
+        <button class="nav-link" data-page="respaldos"><span>⇧</span> Respaldos</button>
+        <button class="nav-link" data-page="configuracion"><span>⚙</span> Configuración</button>
+      </nav>
+      <div class="sidebar-footer"><span class="status-dot"></span> Proyecto escolar · Modo local</div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="icon-button menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+          <div><h1 id="pageTitle">Inicio</h1><p id="currentDate"></p></div>
+        </div>
+        <div class="topbar-right">
+          <span class="local-chip">● Guardado local</span>
+          <div class="avatar" title="Perfil de demostración">D</div>
+        </div>
+      </header>
+      <section class="page-content" id="pageContent" aria-live="polite"></section>
+      <footer class="app-footer">MaestroPro · Herramienta educativa de demostración · No ingresar datos personales reales.</footer>
+    </main>
+  </div>
+  <div class="toast-region" id="toastRegion" aria-live="polite"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
